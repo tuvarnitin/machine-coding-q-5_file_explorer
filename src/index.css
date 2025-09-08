@@ -1,0 +1,46 @@
+html,body{
+  width: 100%;
+  min-height: 100svh;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  min-width: 200px;
+  width: 30%;
+  border: 1px solid black;
+  height: 100vh;
+}
+.node-container{
+  padding: 3px 15px;
+  width: 100%;
+}
+.folder {
+  padding-left: 10px;
+  list-style-type: "🡣";
+}
+.contextMenu{
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50,0%);
+}
+.node{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 5px 0;
+}
+.addfile,.name{
+  display: flex;
+  gap: 8px;
+  cursor: pointer;
+}
+p{
+  display: flex;
+  width: 100%;
+  gap: 12px;
+  align-items: center;
+}
