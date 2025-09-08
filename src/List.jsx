@@ -1,5 +1,4 @@
 import { useState } from "react"
-import { CiTrash } from "react-icons/ci";
 import { FaChevronRight } from "react-icons/fa";
 import { RiFileAddFill, RiFolderAddLine } from "react-icons/ri";
 export const List = ({ data, setData }) => {
