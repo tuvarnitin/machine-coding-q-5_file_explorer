@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import files from './data.json'
 import { List } from './List'
 
 
