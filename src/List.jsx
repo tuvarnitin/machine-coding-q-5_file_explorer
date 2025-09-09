@@ -40,7 +40,7 @@ export const List = ({ data, setData }) => {
     }
 
     const addFolder = (id) => {
-        const name = prompt("Enter name of file : ")
+        const name = prompt("Enter name of folder : ")
         setList(list.map(l => {
             if (id === l.id && l?.isFolder) {
                 return {
